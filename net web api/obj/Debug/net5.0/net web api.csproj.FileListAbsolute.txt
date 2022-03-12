@@ -1,0 +1,28 @@
+C:\Users\ravi.ramani\source\repos\net web api\net web api\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\ravi.ramani\source\repos\net web api\net web api\bin\Debug\net5.0\appsettings.json
+C:\Users\ravi.ramani\source\repos\net web api\net web api\bin\Debug\net5.0\net web api.exe
+C:\Users\ravi.ramani\source\repos\net web api\net web api\bin\Debug\net5.0\net web api.deps.json
+C:\Users\ravi.ramani\source\repos\net web api\net web api\bin\Debug\net5.0\net web api.runtimeconfig.json
+C:\Users\ravi.ramani\source\repos\net web api\net web api\bin\Debug\net5.0\net web api.runtimeconfig.dev.json
+C:\Users\ravi.ramani\source\repos\net web api\net web api\bin\Debug\net5.0\net web api.dll
+C:\Users\ravi.ramani\source\repos\net web api\net web api\bin\Debug\net5.0\ref\net web api.dll
+C:\Users\ravi.ramani\source\repos\net web api\net web api\bin\Debug\net5.0\net web api.pdb
+C:\Users\ravi.ramani\source\repos\net web api\net web api\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\ravi.ramani\source\repos\net web api\net web api\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\ravi.ramani\source\repos\net web api\net web api\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\ravi.ramani\source\repos\net web api\net web api\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\ravi.ramani\source\repos\net web api\net web api\obj\Debug\net5.0\net web api.csproj.AssemblyReference.cache
+C:\Users\ravi.ramani\source\repos\net web api\net web api\obj\Debug\net5.0\net web api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ravi.ramani\source\repos\net web api\net web api\obj\Debug\net5.0\net web api.AssemblyInfoInputs.cache
+C:\Users\ravi.ramani\source\repos\net web api\net web api\obj\Debug\net5.0\net web api.AssemblyInfo.cs
+C:\Users\ravi.ramani\source\repos\net web api\net web api\obj\Debug\net5.0\net web api.csproj.CoreCompileInputs.cache
+C:\Users\ravi.ramani\source\repos\net web api\net web api\obj\Debug\net5.0\net web api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ravi.ramani\source\repos\net web api\net web api\obj\Debug\net5.0\net web api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ravi.ramani\source\repos\net web api\net web api\obj\Debug\net5.0\scopedcss\bundle\net web api.styles.css
+C:\Users\ravi.ramani\source\repos\net web api\net web api\obj\Debug\net5.0\staticwebassets\net web api.StaticWebAssets.Manifest.cache
+C:\Users\ravi.ramani\source\repos\net web api\net web api\obj\Debug\net5.0\net web api.RazorTargetAssemblyInfo.cache
+C:\Users\ravi.ramani\source\repos\net web api\net web api\obj\Debug\net5.0\net web api.csproj.CopyComplete
+C:\Users\ravi.ramani\source\repos\net web api\net web api\obj\Debug\net5.0\net web api.dll
+C:\Users\ravi.ramani\source\repos\net web api\net web api\obj\Debug\net5.0\ref\net web api.dll
+C:\Users\ravi.ramani\source\repos\net web api\net web api\obj\Debug\net5.0\net web api.pdb
+C:\Users\ravi.ramani\source\repos\net web api\net web api\obj\Debug\net5.0\net web api.genruntimeconfig.cache

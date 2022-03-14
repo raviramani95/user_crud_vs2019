@@ -1,4 +1,4 @@
-﻿using FirstApp.AppUserData;
+﻿/*using FirstApp.AppUserData;
 using FirstApp.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -21,7 +21,7 @@ namespace net_web_api.Controllers
         }
 
         [HttpGet]
-       /* [Route("api/[controller]")]*/
+        [Route("api/[controller]")]
         public IEnumerable<AppUser> GetUsers()
         {
             return _userData.GetUsers();
@@ -32,22 +32,22 @@ namespace net_web_api.Controllers
         {
             var user = _userData.GetUser(id);
 
-            if(user != null)
+            if (user != null)
                 return Ok(user);
 
             return BadRequest("user not exists");
         }
 
         [HttpPost]
-        public IActionResult AddUser(AppUser appUser)
-        {/*
+        public async Task<ActionResult<IEnumerable<AppUser>>> AddUser(AppUser appUser)
+        {
             if (_userData.GetUsers().Contains(appUser))
             {
                 return BadRequest("user alredy exists");
-            }*/
+            }
 
-            AppUser newUser = _userData.AddUser(appUser);
-            return Ok(newUser);
+            _userData.AddUser(appUser);
+            return Ok("User added");
         }
 
         [HttpDelete("{id}")]
@@ -55,7 +55,7 @@ namespace net_web_api.Controllers
         {
             var appUser = _userData.GetUser(id);
 
-            if(appUser != null)
+            if (appUser != null)
             {
                 _userData.DeleteUser(appUser);
                 return Ok($"user {appUser.Username} deleted");
@@ -77,39 +77,7 @@ namespace net_web_api.Controllers
 
             return NotFound("user not found");
         }
-        /*
-                [HttpPost]
-                public async Task<ActionResult<IEnumerable<AppUser>>> PostUser(AppUser user)
-                {
 
-                    await _context.Users.AddAsync(user);
-                    await _context.SaveChangesAsync();
-                    return await _context.Users.ToListAsync();
-
-                }
-
-                [HttpPut("{id}")]
-                public async Task<ActionResult<AppUser>> PutUser(int id, AppUser user)
-                {
-
-                    var user_ = await _context.Users.FindAsync(id);
-                    user_.Id = user.Id;
-                    user_.UserName = user.UserName;
-
-                    _context.Users.Update(user_);
-                    await _context.SaveChangesAsync();
-                    return await _context.Users.FindAsync(id);
-                }
-
-                [HttpDelete("{id}")]
-                public async Task<ActionResult<IEnumerable<AppUser>>> DeleteUser(int id)
-                {
-
-                    var user = await _context.Users.FindAsync(id);
-
-                    _context.Users.Remove(user);
-                    await _context.SaveChangesAsync();
-                    return await _context.Users.ToListAsync();
-                }*/
     }
 }
+*/

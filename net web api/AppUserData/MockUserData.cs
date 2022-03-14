@@ -1,4 +1,5 @@
-﻿using FirstApp.Models;
+﻿/*using FirstApp.Models;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -25,7 +26,7 @@ namespace FirstApp.AppUserData
 
         public AppUser AddUser(AppUser appUser)
         {
-            /*if (users.Contains(appUser)) return*/
+            *//*if (users.Contains(appUser)) return*//*
             this.users.Add(appUser);
             return this.GetUser(appUser.Id);
         }
@@ -53,5 +54,7 @@ namespace FirstApp.AppUserData
         {
             return users;
         }
+
     }
 }
+*/

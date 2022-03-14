@@ -1,13 +1,15 @@
-using FirstApp.AppUserData;
+
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using net_web_api.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -29,11 +31,16 @@ namespace net_web_api
         {
 
             services.AddControllers();
+
+            services.AddDbContextPool<UserContext>(options =>
+                options.UseSqlServer(Configuration.GetConnectionString("ConnectionString")));
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "net_web_api", Version = "v1" });
             });
-            services.AddSingleton<IUserData, MockUserData>();
+
+            /*services.AddScoped<IUserData, SqlUsersData>();*/
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

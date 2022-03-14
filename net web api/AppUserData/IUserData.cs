@@ -1,4 +1,5 @@
-﻿using FirstApp.Models;
+﻿/*using FirstApp.Models;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,10 +13,11 @@ namespace FirstApp.AppUserData
 
         AppUser GetUser(int id);
 
-        AppUser AddUser(AppUser appUser);
+        Task<ActionResult<IEnumerable<AppUser>>> AddUser(AppUser appUser);
 
         void DeleteUser(AppUser appUser);
 
         AppUser EditUser(AppUser appUser);
     }
 }
+*/
